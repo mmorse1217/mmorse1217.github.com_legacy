@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "MathJax Example"
-modified:
+modified: x
 categories: blog
-excerpt:
+excerpt: x
 tags: []
-image:
-  feature:
 date: 2015-08-10T08:08:50-04:00
 ---
 
