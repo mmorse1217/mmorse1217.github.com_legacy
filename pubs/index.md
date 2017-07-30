@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About 
+title: Publications
 excerpt: "Under Construction"
-modified: 2014-08-08T19:44:38.564948-04:00
+modified: 2016-09-12T08:42:37-04:00
 ---
+
 Under Construction.
