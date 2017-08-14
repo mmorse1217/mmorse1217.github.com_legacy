@@ -2,7 +2,7 @@
 
 title: Matt Morse
 locale: en_US
-description: Coming soon...
+description: 
 logo: 
 search: true
 url: 
@@ -52,7 +52,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-55317704-1
     verify:
     ad-client:
     ad-slot:
