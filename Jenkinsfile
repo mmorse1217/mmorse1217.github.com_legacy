@@ -3,6 +3,7 @@ pipeline {
     agent { 
         dockerfile {
             filename "Dockerfile.build"
+            args ""
         }
     }
     stages{
@@ -10,8 +11,7 @@ pipeline {
         stage('Test image') {
             steps { 
             /* Ideally, we would run a test framework against our image.*/
-
-                echo "Tested!!!!"
+                sh ci_build.sh
             }
         }
     }
