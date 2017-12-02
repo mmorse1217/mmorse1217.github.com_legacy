@@ -1,7 +1,10 @@
 #!groovy
 pipeline {
     agent { 
-        dockerfile true 
+        dockerfile {
+            filename "Dockerfile.build"
+            args '-p 4000:4000 -v `pwd`:/src'
+        }
     }
     stages{
         stage('Clone repository') {
