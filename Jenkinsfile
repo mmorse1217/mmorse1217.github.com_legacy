@@ -2,9 +2,6 @@
 pipeline {
     agent { 
         dockerfile true 
-        docker {
-            args '-p 4000:4000 -v `pwd`:/src'
-        }
     }
     stages{
         stage('Clone repository') {
