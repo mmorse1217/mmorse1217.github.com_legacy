@@ -11,4 +11,6 @@ ADD Gemfile.lock Gemfile.lock
 RUN bundler install
 
 RUN apt-get update && apt-get install -y curl
+
+RUN apt-get update && apt-get install -y build-essential libxml2 libxslt-dev 
 CMD ["bash"]
