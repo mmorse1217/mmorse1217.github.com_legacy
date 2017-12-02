@@ -12,22 +12,12 @@ pipeline {
             }
         }
 
-        stage('Build image') {
-            steps { 
-            /* This builds the actual image; synonymous to
-             * docker build on the command line */
-
-            app = docker.build("personal-site")
-            }
-        }
 
         stage('Test image') {
             steps { 
             /* Ideally, we would run a test framework against our image.*/
 
-            app.inside {
                 echo "Tested!!!!"
-            }
             }
         }
     }
