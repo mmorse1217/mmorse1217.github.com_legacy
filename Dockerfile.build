@@ -10,4 +10,5 @@ ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
 RUN bundler install
 
+RUN apt-get update && apt-get install -y curl
 CMD ["bash"]
