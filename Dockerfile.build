@@ -10,4 +10,4 @@ ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
 RUN bundler install
 
-CMD ["bash"]
+CMD ["/bin/bash"]
