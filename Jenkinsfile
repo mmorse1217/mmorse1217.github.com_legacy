@@ -11,7 +11,7 @@ pipeline {
         stage('Test image') {
             steps { 
             /* Ideally, we would run a test framework against our image.*/
-            sh 'docker run hello-world'
+            sh 'sh ci_build.sh'
             }
         }
     }
