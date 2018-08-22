@@ -2,7 +2,7 @@
 
 title: Matt Morse
 locale: en_US
-description: Under Construction
+description: 
 logo: 
 search: true
 url: 
@@ -40,18 +40,19 @@ owner:
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
-  twitter: #username
+  twitter: mmorse1217
   facebook: #username
-  github: 
+  github: mmorse1217
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: matthewjmorse
   instagram: #username
   flickr: #username
   tumblr: #username
-  pinterest: #username
+  pinterest: 
   weibo: #userid
   google:
-    plus: #username
+    scholar: wtaBtd8AAAAJ
+    plus: 
     analytics: UA-55317704-1
     verify:
     ad-client:

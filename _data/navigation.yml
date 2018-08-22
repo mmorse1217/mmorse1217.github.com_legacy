@@ -3,11 +3,12 @@
 - title: About
   url: /
 
-- title: Projects 
-  url: /projects/
 
 - title: Papers 
-  url: /papers/
+  url: #papers
+
+- title: Projects 
+  url: #projects
 
 #- title: Blog
 #  url: /blog/
