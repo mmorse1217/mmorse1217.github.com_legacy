@@ -6,8 +6,6 @@ search_omit: true
 ---
 
 This is an attempt to keep helpful bits of information that I've come across in one place.
-Your mileage may vary. Wildly.
-
 If you notice mistakes or bugs, please get in touch, or submit a pull request on [Github](https://github.com/mmorse1217/mmorse1217.github.com) directly if you like.
 <ul class="post-list">
 {% for post in site.categories.blog %} 
