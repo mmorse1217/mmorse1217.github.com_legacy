@@ -8,7 +8,7 @@ search: true
 url: 
 
 # Jekyll configuration
-
+encoding: utf-8
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge

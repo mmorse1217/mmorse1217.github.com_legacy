@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-docker build -t site:base -f Dockerfile.base .
-docker build -t site:serve -f Dockerfile.serve .
+docker build -t site:base --target=base .
+docker build -t site:serve --target=server .
