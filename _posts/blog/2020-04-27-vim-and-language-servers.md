@@ -90,6 +90,20 @@ sudo apt install -y \
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ~/.cargo/bin/cargo install --git https://github.com/latex-lsp/texlab.git
 ```
+Next, I need to add the coc extensions for each language server I will use.
+This can be done either by typing `:CocInstall <coc-extension>` from within Vim, or by specifying the `coc_global_extensions` variable in your `.vimrc`.
+I've installed a few extras to provide extra code snippet functionality and json parsing:
+```vim
+let g:coc_global_extensions = [
+            \ 'coc-json',
+            \ 'coc-clangd',
+            \ 'coc-python',
+            \ 'coc-snippets',
+            \ 'coc-ultisnips',
+            \ 'coc-texlab',
+            \ ]
+```
+
 
 The final step is writing the `coc-settings.json` configuration file.
 This file should live in the `~/.vim` directory and contain a single JSON dictionary, with a key `languageserver`, whose value contains the configuration required for each Language Server. 
